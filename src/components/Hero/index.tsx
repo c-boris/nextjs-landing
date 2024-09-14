@@ -15,14 +15,13 @@ const Hero = () => {
                   NEKT : Agence Web , spécialisée dans la création de sites
                   internet, applications web, et boutiques en ligne.
                 </h1>
-                {/* <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-                  Offrez à votre entreprise la vitrine qu'elle mérite avec un
-                  site web sur mesure. Développez votre activité avec des
+                <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
+                  Offrez à votre entreprise la vitrine qu&apos;elle mérite avec
+                  un site web sur mesure. Développez votre activité avec des
                   applications web personnalisées, soigneusement conçues pour
-                  améliorer l'expérience utilisateur, maximiser le référencement
-                  et accroître les taux de conversion.
-                </p> */}
-                <p>Test</p>
+                  améliorer l&apos;expérience utilisateur, maximiser le
+                  référencement et accroître les taux de conversion.
+                </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
                     href="https://nextjstemplates.com/templates/saas-starter-startup"
