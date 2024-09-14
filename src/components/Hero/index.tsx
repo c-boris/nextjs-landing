@@ -22,6 +22,7 @@ const Hero = () => {
                   améliorer l&apos;expérience utilisateur, maximiser le
                   référencement et accroître les taux de conversion.
                 </p>
+
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
                     href="https://nextjstemplates.com/templates/saas-starter-startup"
