@@ -215,8 +215,9 @@ const Footer = () => {
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>
           <div className="py-8">
             <p className="text-center text-base text-body-color dark:text-white">
-              Template by{" "}
-              <a
+              &copy; {new Date().getFullYear()} Studio 126 | Tous droits
+              réservés.
+              {/* <a
                 href="http://uideck.com"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -232,7 +233,7 @@ const Footer = () => {
                 className="hover:text-primary"
               >
                 Next.js Templates
-              </a>
+              </a> */}
             </p>
           </div>
         </div>
