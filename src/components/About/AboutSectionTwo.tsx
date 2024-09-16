@@ -44,7 +44,7 @@ const AboutSectionTwo = () => {
                   exceptionnelle.
                 </p>
               </div>
-              <div className="mb-1">
+              <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
                   Stratégie Digitale
                 </h3>
