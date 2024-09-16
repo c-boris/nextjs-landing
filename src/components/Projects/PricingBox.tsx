@@ -9,7 +9,7 @@ const PricingBox = (props: {
 
   return (
     <div className="w-full">
-      <div className="relative z-10 rounded-md bg-indigo-100  px-8 py-10 shadow-three hover:shadow-one dark:bg-gray-dark dark:shadow-two dark:hover:shadow-gray-dark">
+      <div className="relative z-10 rounded-md bg-white px-8 py-10 shadow-three hover:shadow-one dark:bg-gray-dark dark:shadow-two dark:hover:shadow-gray-dark">
         <div className="flex items-center justify-between">
           <h3 className="price mb-2 text-[32px] font-bold text-black dark:text-white">
             <span className="amount">{price}</span>€
@@ -17,6 +17,7 @@ const PricingBox = (props: {
               /{duration}
             </span> */}
           </h3>
+
           <h4 className="mb-2 text-xl font-bold text-dark dark:text-white">
             {packageName}
           </h4>
