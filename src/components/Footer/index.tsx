@@ -245,7 +245,7 @@ const Footer = () => {
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
           >
-            <circle opacity="0.8" cx="49.5" cy="49.5" r="49.5" fill="#959CB1" />
+            <circle opacity="0.8" cx="49.5" cy="49.5" r="49.5" fill="#557cf2" />
             <mask
               id="mask0_94:899"
               style={{ maskType: "alpha" }}
