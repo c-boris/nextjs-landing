@@ -19,7 +19,7 @@ const Projects = () => {
           {/* Projet 1 */}
           <div className="relative z-10 rounded-md bg-indigo-100 px-8 py-10 shadow-three hover:shadow-one dark:bg-gray-dark dark:shadow-two dark:hover:shadow-gray-dark">
             <Image
-              src="/images/blog/blog-01.jpg" // Remplacer par le chemin correct de l'image
+              src="/images/blog/Macbook.webp" // Remplacer par le chemin correct de l'image
               alt="Projet 1"
               width={600} // Largeur de l'image
               height={300} // Hauteur de l'image
@@ -30,7 +30,7 @@ const Projects = () => {
           {/* Projet 2 */}
           <div className="relative z-10 rounded-md bg-indigo-100  px-8 py-10 shadow-three hover:shadow-one dark:bg-gray-dark dark:shadow-two dark:hover:shadow-gray-dark">
             <Image
-              src="/images/blog/blog-02.jpg" // Remplacer par le chemin correct de l'image
+              src="/images/blog/iPhone.webp" // Remplacer par le chemin correct de l'image
               alt="Projet 2"
               width={600} // Largeur de l'image
               height={300} // Hauteur de l'image
