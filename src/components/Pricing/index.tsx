@@ -8,7 +8,7 @@ const Pricing = () => {
     <section id="pricing" className="relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="Des solutions adaptées à votre budget."
+          title="Des solutions adaptées à votre budget"
           paragraph="Nous créons des sites web sur mesure pour répondre à vos besoins spécifiques et votre budget."
           center
           width="665px"

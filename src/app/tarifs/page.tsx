@@ -15,7 +15,7 @@ const PricingPage = () => {
     <>
       <Breadcrumb
         pageName="Nos tarifs"
-        description="Découvrez notre collection de projets innovants et performants."
+        description="Des solutions adaptées à votre budget."
       />
       <Pricing />
     </>
