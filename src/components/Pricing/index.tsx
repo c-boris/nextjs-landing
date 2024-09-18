@@ -1,7 +1,9 @@
 "use client";
+
 import SectionTitle from "../Common/SectionTitle";
 import OfferList from "./OfferList";
 import PricingBox from "./PricingBox";
+import { Fade } from "react-awesome-reveal";
 
 const Pricing = () => {
   return (
@@ -15,45 +17,47 @@ const Pricing = () => {
         />
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
-          <PricingBox
-            packageName="Lite"
-            price="950"
-            duration="mo"
-            subtitle="Site internet simple et efficace."
-          >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="inactive" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
-          </PricingBox>
-          <PricingBox
-            packageName="Basic"
-            price="1500"
-            duration="mo"
-            subtitle="Site vitrine professionnel."
-          >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="inactive" />
-          </PricingBox>
-          <PricingBox
-            packageName="Plus"
-            price="3000"
-            duration="mo"
-            subtitle="Site avec fonctionnalités avancées."
-          >
-            <OfferList text="All UI Components" status="active" />
-            <OfferList text="Use with Unlimited Projects" status="active" />
-            <OfferList text="Commercial Use" status="active" />
-            <OfferList text="Email Support" status="active" />
-            <OfferList text="Lifetime Access" status="active" />
-            <OfferList text="Free Lifetime Updates" status="active" />
-          </PricingBox>
+          <Fade cascade damping={0.4}>
+            <PricingBox
+              packageName="Lite"
+              price="950"
+              duration="mo"
+              subtitle="Site internet simple et efficace."
+            >
+              <OfferList text="All UI Components" status="active" />
+              <OfferList text="Use with Unlimited Projects" status="active" />
+              <OfferList text="Commercial Use" status="active" />
+              <OfferList text="Email Support" status="active" />
+              <OfferList text="Lifetime Access" status="inactive" />
+              <OfferList text="Free Lifetime Updates" status="inactive" />
+            </PricingBox>
+            <PricingBox
+              packageName="Basic"
+              price="1500"
+              duration="mo"
+              subtitle="Site vitrine professionnel."
+            >
+              <OfferList text="All UI Components" status="active" />
+              <OfferList text="Use with Unlimited Projects" status="active" />
+              <OfferList text="Commercial Use" status="active" />
+              <OfferList text="Email Support" status="active" />
+              <OfferList text="Lifetime Access" status="active" />
+              <OfferList text="Free Lifetime Updates" status="inactive" />
+            </PricingBox>
+            <PricingBox
+              packageName="Plus"
+              price="3000"
+              duration="mo"
+              subtitle="Site avec fonctionnalités avancées."
+            >
+              <OfferList text="All UI Components" status="active" />
+              <OfferList text="Use with Unlimited Projects" status="active" />
+              <OfferList text="Commercial Use" status="active" />
+              <OfferList text="Email Support" status="active" />
+              <OfferList text="Lifetime Access" status="active" />
+              <OfferList text="Free Lifetime Updates" status="active" />
+            </PricingBox>
+          </Fade>
         </div>
       </div>
 

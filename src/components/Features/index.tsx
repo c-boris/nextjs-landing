@@ -3,7 +3,7 @@
 import SectionTitle from "../Common/SectionTitle";
 import SingleFeature from "./SingleFeature";
 import featuresData from "./featuresData";
-import { Fade, AttentionSeeker } from "react-awesome-reveal";
+import { Fade } from "react-awesome-reveal";
 
 const Features = () => {
   return (
@@ -19,7 +19,7 @@ const Features = () => {
           </Fade>
 
           <div className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-4">
-            <Fade cascade damping={0.5}>
+            <Fade cascade damping={0.4}>
               {featuresData.map((feature) => (
                 <SingleFeature key={feature.id} feature={feature} />
               ))}
