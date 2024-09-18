@@ -1,8 +1,5 @@
 // import NewsLatterBox from "./NewsLatterBox";
 import SectionTitle from "../Common/SectionTitle";
-import toast from "react-hot-toast";
-import { sendEmail } from "@/actions/sendEmail";
-import SubmitBtn from "./submit-btn";
 
 const Contact = () => {
   return (
@@ -31,20 +28,9 @@ const Contact = () => {
                 ci-dessous. Nous sommes à votre disposition pour répondre à vos
                 questions et vous assister.
               </p> */}
-              <form
-                action={async (formData) => {
-                  const { data, error } = await sendEmail(formData);
-
-                  if (error) {
-                    toast.error(error);
-                    return;
-                  }
-
-                  toast.success("Email sent successfully!");
-                }}
-              >
+              <form>
                 <div className="-mx-4 flex flex-wrap">
-                  {/* <div className="w-full px-4 md:w-1/2">
+                  <div className="w-full px-4 md:w-1/2">
                     <div className="mb-8">
                       <label
                         htmlFor="name"
@@ -53,15 +39,12 @@ const Contact = () => {
                         Nom
                       </label>
                       <input
-                        name="senderName"
                         type="text"
-                        required
-                        maxLength={50}
                         placeholder="Enter your name"
                         className="border-stroke w-full rounded-md border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
                       />
                     </div>
-                  </div> */}
+                  </div>
                   <div className="w-full px-4 md:w-1/2">
                     <div className="mb-8">
                       <label
@@ -72,9 +55,6 @@ const Contact = () => {
                       </label>
                       <input
                         type="email"
-                        name="senderEmail"
-                        required
-                        maxLength={50}
                         placeholder="Enter your email"
                         className="border-stroke w-full rounded-md border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
                       />
@@ -90,8 +70,6 @@ const Contact = () => {
                       </label>
                       <textarea
                         name="message"
-                        required
-                        maxLength={5000}
                         rows={5}
                         placeholder="Enter your Message"
                         className="border-stroke w-full resize-none rounded-md border bg-[#f8f8f8] px-6 py-3 text-base text-body-color outline-none focus:border-primary dark:border-transparent dark:bg-[#2C303B] dark:text-body-color-dark dark:shadow-two dark:focus:border-primary dark:focus:shadow-none"
@@ -99,13 +77,9 @@ const Contact = () => {
                     </div>
                   </div>
                   <div className="w-full px-4">
-                    <SubmitBtn />
-                    {/* <button
-                      type="submit"
-                      className="rounded-md bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark"
-                    >
+                    <button className="rounded-md bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark">
                       Envoyer
-                    </button> */}
+                    </button>
                   </div>
                 </div>
               </form>
