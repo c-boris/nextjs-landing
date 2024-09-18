@@ -36,26 +36,24 @@ const AboutSectionOne = () => {
                 className="mb-12 max-w-[570px] lg:mb-0"
                 data-wow-delay=".15s"
               >
-                <Fade cascade duration={4000}>
-                  <div className="mx-[-12px] flex flex-wrap">
-                    <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                      <List text="Conception sur-mesure" />
-                      <List text="Expertise digitale" />
-                      <List text="Solutions web innovantes" />
-                    </div>
-
-                    <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                      <List text="Stratégie UX/UI optimisée" />
-                      <List text="Performance web accrue" />
-                      <List text="Optimisation SEO" />
-                    </div>
+                <div className="mx-[-12px] flex flex-wrap">
+                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
+                    <List text="Conception sur-mesure" />
+                    <List text="Expertise digitale" />
+                    <List text="Solutions web innovantes" />
                   </div>
-                </Fade>
+
+                  <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
+                    <List text="Stratégie UX/UI optimisée" />
+                    <List text="Performance web accrue" />
+                    <List text="Optimisation SEO" />
+                  </div>
+                </div>
               </div>
             </div>
 
             <div className="w-full px-4 lg:w-1/2">
-              <Fade cascade damping={0.4} duration={4000}>
+              <Fade cascade damping={0.4} duration={2000}>
                 <div className="relative mx-auto aspect-[25/24] max-w-[500px] lg:mr-0">
                   <Image
                     src="/images/about/about-image.svg"

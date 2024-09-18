@@ -10,13 +10,11 @@ const Features = () => {
     <>
       <section id="features" className="py-16 md:py-20 lg:py-28">
         <div className="container">
-          <Fade direction="down">
-            <SectionTitle
-              title="Nos services"
-              paragraph="Agence web, spécialisée dans la création de sites internet, applications web, et boutiques en ligne."
-              center
-            />
-          </Fade>
+          <SectionTitle
+            title="Nos services"
+            paragraph="Agence web, spécialisée dans la création de sites internet, applications web, et boutiques en ligne."
+            center
+          />
 
           <div className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-4">
             <Fade cascade damping={0.4}>
