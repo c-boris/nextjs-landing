@@ -17,7 +17,7 @@ const featuresData: Feature[] = [
       "Créations élégantes et responsives pour une présence en ligne impactante.",
   },
   {
-    id: 1,
+    id: 2,
     icon: (
       <svg width="40" height="40" viewBox="0 0 40 40" className="fill-current">
         <path
@@ -32,7 +32,7 @@ const featuresData: Feature[] = [
       "Solutions de vente en ligne performantes et sécurisées pour booster vos revenus.",
   },
   {
-    id: 1,
+    id: 3,
     icon: (
       <svg width="40" height="40" viewBox="0 0 40 40" className="fill-current">
         <path
@@ -47,7 +47,7 @@ const featuresData: Feature[] = [
       "Stratégies avancées pour améliorer votre visibilité sur les moteurs de recherche.",
   },
   {
-    id: 1,
+    id: 4,
     icon: (
       <svg width="40" height="42" viewBox="0 0 40 42" className="fill-current">
         <path
