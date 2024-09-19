@@ -17,7 +17,7 @@ const Pricing = () => {
         />
 
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
-          <Fade cascade damping={0.4}>
+          <Fade cascade damping={0.3}>
             <PricingBox
               packageName="Lite"
               price="950"
