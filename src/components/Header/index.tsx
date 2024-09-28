@@ -57,7 +57,7 @@ const Header = () => {
             <div className="w-60 max-w-full px-4 xl:mr-12">
               <Link
                 href="/"
-                className={`header-logo block w-full text-xl font-bold leading-tight text-black dark:text-white md:text-2xl ${
+                className={`header-logo block w-full text-xl font-bold leading-tight text-black hover:text-primary dark:text-white dark:hover:text-gray-400 md:text-2xl ${
                   sticky ? "py-5 lg:py-2" : "py-8"
                 } `}
               >
