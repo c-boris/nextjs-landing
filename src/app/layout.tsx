@@ -27,7 +27,7 @@ export default function RootLayout({
           <ScrollToTop />
           <Script
             src="https://www.googletagmanager.com/gtm.js?id=GTM-5FSWDXW5"
-            strategy="afterInteractive"
+            strategy="lazyOnload"
           />
         </Providers>
       </body>
