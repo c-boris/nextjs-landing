@@ -1,13 +1,14 @@
 "use client";
 
+import Script from "next/script";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header";
 import ScrollToTop from "@/components/ScrollToTop";
-import { GeistSans } from "geist/font/sans"; // Import correct de GeistSans
+import { GeistSans } from "geist/font/sans";
 import "../styles/index.css";
-import { GoogleAnalytics } from "@next/third-parties/google";
 import { Toaster } from "react-hot-toast";
 import CookieConsent from "@/components/CookieConsent";
+import { Providers } from "./providers";
 
 export default function RootLayout({
   children,
@@ -24,11 +25,12 @@ export default function RootLayout({
           <Footer />
           <Toaster position="top-right" />
           <ScrollToTop />
-          <GoogleAnalytics gaId="G-18GXDJ6K9Q" />
+          <Script
+            src="https://www.googletagmanager.com/gtm.js?id=GTM-5FSWDXW5"
+            strategy="afterInteractive"
+          />
         </Providers>
       </body>
     </html>
   );
 }
-
-import { Providers } from "./providers";
