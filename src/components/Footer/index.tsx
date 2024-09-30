@@ -10,7 +10,7 @@ const Footer = () => {
               <div className="mb-12 max-w-[360px] lg:mb-16">
                 <Link
                   href="/"
-                  className="header-logo block w-full py-8 text-xl font-bold leading-tight text-black hover:text-primary dark:text-white dark:hover:text-gray-400 md:text-2xl"
+                  className="header-logo mb-10 block w-full text-2xl font-bold leading-tight text-black hover:text-primary dark:text-white dark:hover:text-gray-400"
                 >
                   Studio 126
                 </Link>
@@ -98,36 +98,36 @@ const Footer = () => {
               </div>
             </div>
 
-            {/* <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
+            <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Useful Links
+                  Navigation
                 </h2>
                 <ul>
                   <li>
                     <Link
-                      href="/blog"
+                      href="/services"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Blog
+                      Services
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/"
+                      href="/tarifs"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Pricing
+                      Tarifs
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link
-                      href="/about"
+                      href="/contact"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      About
+                      Contact
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -135,18 +135,18 @@ const Footer = () => {
             <div className="w-full px-4 sm:w-1/2 md:w-1/2 lg:w-2/12 xl:w-2/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Terms
+                  Informations
                 </h2>
                 <ul>
                   <li>
                     <Link
-                      href="/"
+                      href="/mentions-legales"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      TOS
+                      Mentions Légales
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
@@ -161,7 +161,7 @@ const Footer = () => {
                     >
                       Refund Policy
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>
@@ -169,7 +169,7 @@ const Footer = () => {
             <div className="w-full px-4 md:w-1/2 lg:w-4/12 xl:w-3/12">
               <div className="mb-12 lg:mb-16">
                 <h2 className="mb-10 text-xl font-bold text-black dark:text-white">
-                  Support & Help
+                  Nous contacter
                 </h2>
                 <ul>
                   <li>
@@ -177,10 +177,10 @@ const Footer = () => {
                       href="/contact"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Open Support Ticket
+                      Contact
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link
                       href="/"
                       className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
@@ -195,10 +195,10 @@ const Footer = () => {
                     >
                       About
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
-            </div> */}
+            </div>
           </div>
 
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#D2D8E183] to-transparent dark:via-[#959CB183]"></div>

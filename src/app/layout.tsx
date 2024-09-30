@@ -16,8 +16,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="fr" suppressHydrationWarning className={GeistSans.className}>
-      <body className="bg-[#FCFCFC] dark:bg-black">
+    <html lang="fr" suppressHydrationWarning>
+      <body className={`bg-[#FCFCFC] dark:bg-black ${GeistSans.className}`}>
         <Providers>
           <Header />
           {children}

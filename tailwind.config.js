@@ -57,6 +57,10 @@ module.exports = {
           light: "#F0F2F9",
         },
       },
+      fontFamily: {
+        sans: ["var(--font-geist-sans)"],
+        mono: ["var(--font-geist-mono)"],
+      },
 
       boxShadow: {
         signUp: "0px 5px 10px rgba(4, 10, 34, 0.2)",

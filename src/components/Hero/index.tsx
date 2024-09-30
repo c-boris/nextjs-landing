@@ -22,10 +22,12 @@ const Hero = () => {
                   </h1>
                   <p className="mb-12 text-base !leading-relaxed text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
                     Offrez à votre entreprise la vitrine qu&apos;elle mérite
-                    avec un site web sur mesure. Développez votre activité avec
-                    des applications web personnalisées, soigneusement conçues
-                    pour améliorer l&apos;expérience utilisateur, maximiser le
-                    référencement et accroître les taux de conversion.
+                    avec un site web sur mesure. <br />
+                    Développez votre activité avec des applications web
+                    personnalisées, <br />
+                    soigneusement conçues pour améliorer l&apos;expérience
+                    utilisateur, maximiser le référencement et accroître les
+                    taux de conversion.
                   </p>
                 </Fade>
                 <Fade direction="up">
