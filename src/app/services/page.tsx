@@ -9,7 +9,6 @@ export const metadata: Metadata = {
   title: "Services | Studio 126, Agence Web",
   description:
     "Agence web, spécialisée dans la création de sites internet, applications web et boutiques en ligne.",
-  // other metadata
 };
 
 const AboutPage = () => {
