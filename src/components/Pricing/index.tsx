@@ -24,12 +24,18 @@ const Pricing = () => {
               duration="mo"
               subtitle="Site internet simple et efficace."
             >
-              <OfferList text="All UI Components" status="active" />
-              <OfferList text="Use with Unlimited Projects" status="active" />
-              <OfferList text="Commercial Use" status="active" />
-              <OfferList text="Email Support" status="active" />
-              <OfferList text="Lifetime Access" status="inactive" />
-              <OfferList text="Free Lifetime Updates" status="inactive" />
+              <OfferList text="Site internet 1 page" status="active" />
+              <OfferList text="Nom de domaine et hébergement" status="active" />
+              <OfferList
+                text="Intégration logo, images et textes"
+                status="active"
+              />
+              <OfferList
+                text="Conformité RGPD, mention légales"
+                status="active"
+              />
+              <OfferList text="Google Maps, Google reviews" status="inactive" />
+              <OfferList text="Formulaire de contact" status="inactive" />
             </PricingBox>
             <PricingBox
               packageName="Basic"
@@ -37,12 +43,18 @@ const Pricing = () => {
               duration="mo"
               subtitle="Site vitrine professionnel."
             >
-              <OfferList text="All UI Components" status="active" />
-              <OfferList text="Use with Unlimited Projects" status="active" />
-              <OfferList text="Commercial Use" status="active" />
-              <OfferList text="Email Support" status="active" />
-              <OfferList text="Lifetime Access" status="active" />
-              <OfferList text="Free Lifetime Updates" status="inactive" />
+              <OfferList text="Site internet 1 page" status="active" />
+              <OfferList text="Nom de domaine et hébergement" status="active" />
+              <OfferList
+                text="Intégration logo, images et textes"
+                status="active"
+              />
+              <OfferList
+                text="Conformité RGPD, mention légales"
+                status="active"
+              />
+              <OfferList text="Google Maps, Google reviews" status="active" />
+              <OfferList text="Formulaire de contact" status="inactive" />
             </PricingBox>
             <PricingBox
               packageName="Plus"
@@ -50,12 +62,18 @@ const Pricing = () => {
               duration="mo"
               subtitle="Site avec fonctionnalités avancées."
             >
-              <OfferList text="All UI Components" status="active" />
-              <OfferList text="Use with Unlimited Projects" status="active" />
-              <OfferList text="Commercial Use" status="active" />
-              <OfferList text="Email Support" status="active" />
-              <OfferList text="Lifetime Access" status="active" />
-              <OfferList text="Free Lifetime Updates" status="active" />
+              <OfferList text="Site internet page multiple" status="active" />
+              <OfferList text="Nom de domaine et hébergement" status="active" />
+              <OfferList
+                text="Intégration logo, images et textes"
+                status="active"
+              />
+              <OfferList
+                text="Conformité RGPD, mention légales"
+                status="active"
+              />
+              <OfferList text="Google Maps, Google reviews" status="active" />
+              <OfferList text="Formulaire de contact" status="active" />
             </PricingBox>
           </Fade>
         </div>
