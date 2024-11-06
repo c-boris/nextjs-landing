@@ -18,8 +18,9 @@ const Projects = () => {
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
           <Fade cascade damping={0.3}>
             <div className="relative z-10 rounded-md bg-indigo-100 px-8 py-10 shadow-three hover:shadow-one dark:bg-gray-dark dark:shadow-two dark:hover:shadow-gray-dark">
+              Les Notaires du cherche midi
               <Image
-                src="/images/blog/Macbook.webp"
+                src="/images/blog/notaire.png"
                 alt="Projet 1"
                 width={600}
                 height={300}
@@ -28,8 +29,9 @@ const Projects = () => {
             </div>
 
             <div className="relative z-10 rounded-md bg-indigo-100 px-8 py-10 shadow-three hover:shadow-one dark:bg-gray-dark dark:shadow-two dark:hover:shadow-gray-dark">
+              Got Wet Surfwear
               <Image
-                src="/images/blog/iPhone.webp"
+                src="/images/blog/gotwet.png"
                 alt="Projet 2"
                 width={600}
                 height={300}
@@ -38,8 +40,9 @@ const Projects = () => {
             </div>
 
             <div className="relative z-10 rounded-md bg-indigo-100 px-8 py-10 shadow-three hover:shadow-one dark:bg-gray-dark dark:shadow-two dark:hover:shadow-gray-dark">
+              Julie Voix Off
               <Image
-                src="/images/blog/blog-03.jpg"
+                src="/images/blog/voixoff.png"
                 alt="Projet 3"
                 width={600}
                 height={300}
