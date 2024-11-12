@@ -24,7 +24,8 @@ const Projects = () => {
                 alt="Projet 1"
                 width={600}
                 height={300}
-                className="rounded-lg shadow-lg"
+                className="rounded-lg"
+                // className="rounded-lg shadow-lg"
               />
             </div>
 
@@ -35,7 +36,7 @@ const Projects = () => {
                 alt="Projet 2"
                 width={600}
                 height={300}
-                className="rounded-lg shadow-lg"
+                className="rounded-lg"
               />
             </div>
 
@@ -46,7 +47,7 @@ const Projects = () => {
                 alt="Projet 3"
                 width={600}
                 height={300}
-                className="rounded-lg shadow-lg"
+                className="rounded-lg"
               />
             </div>
           </Fade>
